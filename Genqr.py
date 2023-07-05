@@ -14,6 +14,6 @@ def textfile():
     file.close()
     os.rename("qr.png", "images/{}.png" .format(x))
     file.close()
-    print("Su codigo QR ha sido realizado")
+    print("Su código QR ha sido realizado con éxito")
         
 textfile()
