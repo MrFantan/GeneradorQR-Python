@@ -1,7 +1,7 @@
 import qrcode
 
 from qrcode import image 
-url = input("¿Que URL desea insertar?") # Pregunta de lo que se quiera que salga en el codigo QR
+url = input("¿Que URL desea insertar? ") # Pregunta de lo que se quiera que salga en el codigo QR
 
 img = qrcode.make({url})
 
